@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.naive_bayes import BernoulliNB
 
+# 贝努利适用于0-1分布或二项分布
 X = np.array([
     [0, 1, 0, 1],
     [1, 1, 1, 0],
@@ -21,7 +22,11 @@ for label in np.unique(y):
 # print(counts)
 
 clf = BernoulliNB().fit(X, y)
-# 预测这一天 0,0,1,0情况下是否会下雨
+
 next_day = [[1, 0, 1, 0]]
+# 预测这一天 0,0,1,0情况下是否会下雨
 pre = clf.predict(next_day)
+# 预测这一天 0,0,1,0情况下下雨/不下雨的概率
+pre_proba = clf.predict_proba(next_day)
 print(pre)
+print(pre_proba)
