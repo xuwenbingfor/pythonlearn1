@@ -1,4 +1,4 @@
-import numpy as np
+import np as np
 from sklearn.naive_bayes import BernoulliNB
 
 # 贝努利适用于0-1分布或二项分布

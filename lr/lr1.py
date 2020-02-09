@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import mat.pyplot as plt
+import np as np
 from sklearn.linear_model import LinearRegression
 # 4、批量数据训练线性回归模型，并使用
 
@@ -12,7 +12,7 @@ from sklearn.datasets import make_regression
 # reg = LinearRegression().fit(X, y)
 # z = np.linspace(-3, 3, 200)
 # print(z)
-# # numpy reshape -1表示具体不知道多少行/列
+# # np reshape -1表示具体不知道多少行/列
 # z = z.reshape(-1, 1)
 # print(z)
 #

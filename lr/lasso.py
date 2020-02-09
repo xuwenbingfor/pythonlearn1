@@ -7,7 +7,7 @@
 
 
 # 导人套索回归
-import numpy as np
+import np as np
 from sklearn.datasets import load_diabetes
 from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
