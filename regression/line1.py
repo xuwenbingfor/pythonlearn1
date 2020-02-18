@@ -28,14 +28,14 @@ from sklearn.datasets import make_regression
 # 2、两个点训练线性回归模型，并使用
 # X = [[1], [2]]
 # y = [3, 5]
-# lr = LinearRegression().fit(X, y)
-# print('直线方程是：y={:.3f}'.format(lr.coef_[0]), 'x'
-#       , '+{:.3f}'.format(lr.intercept_))
+# regression = LinearRegression().fit(X, y)
+# print('直线方程是：y={:.3f}'.format(regression.coef_[0]), 'x'
+#       , '+{:.3f}'.format(regression.intercept_))
 #
 # z = np.linspace(0, 5, 20)
 # # plt.scatter(X, y, s=[20, 100])
 # plt.scatter(X, y, s=100)
-# plt.plot(z, lr.predict(z.reshape(-1, 1)), c='k')
+# plt.plot(z, regression.predict(z.reshape(-1, 1)), c='k')
 # plt.title('Straight Line')
 # plt.show()
 

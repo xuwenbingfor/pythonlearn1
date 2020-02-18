@@ -14,9 +14,9 @@ print('测试集得分：{:.2f}'.format(reg.score(X_test,y_test)))
 # X, y = make_regression(n_samples=100, n_features=2
 #                        , n_informative=2, random_state=1)
 # X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=1)
-# lr = LinearRegression().fit(X_train, y_train)
+# regression = LinearRegression().fit(X_train, y_train)
 # # 一般线性回归得分
 # print('X_train:', X_train.shape)
 # print('X_test:', X_test.shape)
-# print('训练集得分：{:.2f}'.format(lr.score(X_train, y_train)))
-# print('测试集得分：{:.2f}'.format(lr.score(X_test, y_test)))
+# print('训练集得分：{:.2f}'.format(regression.score(X_train, y_train)))
+# print('测试集得分：{:.2f}'.format(regression.score(X_test, y_test)))
