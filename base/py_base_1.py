@@ -36,5 +36,26 @@
 # print(set1 & set2)
 
 # 4、字符串
-print(','.join(['a', 'b', 'c']))
-print('a,b,c'.split(','))
+# print(','.join(['a', 'b', 'c']))
+# print('a,b,c'.split(','))
+# print(str([1, 2, 3]))
+# print(repr([1, 2, 3]))
+# print('{0} is a {1}'.format('god', 'girl'))
+
+
+# 5、map
+# map1 = {'one': '1'}
+# # print(type(map1))
+# map1['two'] = '2'
+# print(map1)
+# print(map1['two'])
+# print(map1.items())
+# map1.pop('two')
+# print(map1)
+
+# for
+# print(range(10))
+# for i in range(10):
+#     print(i)
+list1 = ['a', 'b', 'c']
+print(enumerate(list1))
