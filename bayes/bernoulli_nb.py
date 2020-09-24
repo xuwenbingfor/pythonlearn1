@@ -8,7 +8,6 @@ from sklearn.naive_bayes import BernoulliNB
 ## 当特征是连续变量时，使用高斯模型
 
 ## 伯努利模型和多项式模型是一致的，但要求特征是二值化的（1，0）
-
 X = np.array([
     [0, 1, 0, 1],
     [1, 1, 1, 0],
