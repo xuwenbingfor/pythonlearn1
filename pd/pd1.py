@@ -2,6 +2,10 @@ import pandas as pd
 
 # 读取CSV文件
 famliy = pd.read_csv('data.csv')
+# print(famliy.values)
+# print(famliy.index)
+# print(famliy.columns)
+# print(famliy.dtypes)
 # print(famliy)
 # print(type(famliy))
 
@@ -19,7 +23,7 @@ famliy = pd.read_csv('data.csv')
 # print(famliy.tail(2))
 
 # 索引
-# print(famliy.loc[0])
+print(famliy.iloc[0,0])
 # print(famliy.loc[0:1])
 # print(famliy['name'])
 # print(famliy.loc[0:1]['name'])
