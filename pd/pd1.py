@@ -3,7 +3,7 @@ import pandas as pd
 # 读取CSV文件
 famliy = pd.read_csv('data.csv')
 # print(famliy.values)
-# print(famliy.index)
+print(famliy.index)
 # print(famliy.columns)
 # print(famliy.dtypes)
 # print(famliy)
