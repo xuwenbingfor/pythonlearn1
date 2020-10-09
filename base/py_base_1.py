@@ -38,8 +38,8 @@
 # 4、字符串
 # print(','.join(['a', 'b', 'c']))
 # print('a,b,c'.split(','))
-# print(str([1, 2, 3]))
-# print(repr([1, 2, 3]))
+print(str([1, 2, 3]))
+print(repr([1, 2, 3]))
 # print('{0} is a {1}'.format('god', 'girl'))
 
 
@@ -71,11 +71,12 @@
 # map1 = {item: item * item for item in list0 if item > 0}
 # print(map1)
 
-# 迭代器生成表达式
+# 生成器表达式：和列表推导式异同
 
 # 模块和作用域
 # 1、global/nonlocal：https://www.cnblogs.com/huwt/p/11185516.html
-# 2、包__init__,__all__; 模块; import; https://www.cnblogs.com/moonpool/p/11333117.html
+# 2-1、包__init__,__all__
+# 2-2、模块或直接对象; import，https://www.cnblogs.com/moonpool/p/11333117.html
 # import sys
 #
 # for v in sys.path:
@@ -87,4 +88,4 @@
 
 # 异常处理
 # 继承关系、raise Exception('')
-# with
+# with和上下文管理器。文件对象就是一种上下文管理器，更多信息见标准库contextlib文档。
