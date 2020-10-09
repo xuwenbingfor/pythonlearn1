@@ -34,4 +34,4 @@ func2(1, 2, 3, 4)
 # 3、lambda表达式
 # 4、迭代器生成函数
 # 5、装饰器
-# 6、functools模块
+# 6、functools模块：https://www.liaoxuefeng.com/wiki/1016959663602400/1017454145929440
