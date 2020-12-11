@@ -34,6 +34,10 @@
 ### 数据分布
 
 ## 数据预处理
+### 基本操作
+1. 格式化处理
+2. 缺失值处理
+
 ### MinMaxScaler
 ### StandardScaler
 ### RobustScaler
